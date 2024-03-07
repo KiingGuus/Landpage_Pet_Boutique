@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+/* primeira secao da pagina */
+/* abaixo o codigo do banner */
+.banner{
+    max-width: 100%;
+    padding: 120px 80px;
+    background: url(img/banner-topo.jpg) center;
+    background-size: cover;
+}
+
+/* primeiro container */
+.container-topo1{
+    max-width: 250px;
+    color: #3c184e;
+}
+.paragrafo-topo1{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.container-topo1 img {
+    width: 30px;
+    margin-right: 5px;
+}
+.paragrafo-topo2{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* segundo container */
+.container2{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0px auto;
+    background-color:#ffffffc4;
+    box-shadow: 0px 8px 32px #1f26875e;
+}
+.container2 h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+.container2 p{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0px auto 0px auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+.container2 a{
+    color: #ffff;
+    text-decoration: none;
+}
+.container2 img{
+    width: 20px;
+}
+
+
+/* segunda secao da pagina */
+.segunda-secao{
+    max-width: 100%;
+    padding: 120px 80px;
+}
+.segunda-secao h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.segunda-secao ul{
+    max-width: 800px;
+    margin: 0px auto 50px auto;
+    color: #3c184e;
+    list-style-type: square;
+}
+.segunda-secao ul li{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.segunda-secao li span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+/* terceira secao da pagina */
+.terceira-secao{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+}
+.terceira-secao img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+
+/* quarta secao da pagina */
+.quarta-secao{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+.quarta-secao p{
+    max-width: 800px;
+    margin: 0px auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+}
+.quarta-secao p span{
+    font-weight: 700;
+    font-style: italic;
+}
+.quarta-secao img{
+    width: 50px;
+    height: 50px;
+    margin: auto 20px;
+}
+
+
+/* quinta secao da pagina */
+.quinta-secao{
+    max-width: 100%;
+    padding: 120px 80px;
+}
+.quinta-secao h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.quinta-secao div{
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+}
+.quinta-secao div img{
+    width: 148px;
+    height: 148px;
+    margin: 0px 15px;
+}
+
+
+/* nao existe uma sexta-secao devido a sexta ser um espelho exato da quarta secao */
+/* setima secao da pagina */
+.setima-secao{
+    max-width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+.setima-secao h3{
+    font-size: 36px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+.setima-secao p{
+    font-size: 20px;
+    color: #3c184e;
+    margin-bottom: 45px;
+}
+.segunda-secao iframe{
+    text-align: center;
+    width: 800px;
+    height: 450px;
+}
+
+
+footer{
+    max-width: 100%;
+    padding: 10px 0px;
+    background-color: #3c184e;
+    text-align: center;
+}
+footer p{
+    color: #fff;
+    font-size: 12px;
+}
